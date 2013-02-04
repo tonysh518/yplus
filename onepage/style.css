@@ -1,1 +1,31 @@
+* {outline:none;}
+img, a {-moz-user-select: -moz-none;-khtml-user-select: none;-webkit-user-select: none;-ms-user-select: none; user-select: none;}
+html, body{height: 100%;background:#FFF; font-size:13px; font-family:Arial, '宋体',Helvetica, sans-serif;}
+body {margin: 0; padding: 0; border: 0; outline: 0; color: #000;}
+a:link,a:visited {text-decoration: none;}
+a {color: #000;}
+a:hover,a:focus {color: #000;}
+a:active {color: #000;}
+h1,h2,h3,h4,h5,h6 {margin:0; padding:0; font-weight: inherit;}
+h1 {font-size: 1.357em;color: #000;}
+h2 {font-size: 1.143em;}
+p, dl, dt, dd, ul, li, div {margin: 0; padding:0; list-style:none;}
+del {text-decoration: line-through;}
+tr.odd {background-color: #dddddd;}
+img {border:none;}
+
+.clear{float:none; clear:both;font-size:0px;line-height:0px;height:0px; min-height:0px; padding:0px; margin:0px; overflow:hidden;}
+
+
 .container {width:960px;margin:0 auto;}
+.header {margin:0 0 20px 0;}
+.sandbox {border-bottom:1px dashed #dd1307;height:370px;margin:0 0 40px 0;}
+.sandbox_left {float:left;width:333px;}
+.sandbox_left .date {margin:0 0 10px 0; position:relative;height:36px;}
+.sandbox_left .date img { position:absolute;left:0;top:0;}
+.sandbox_right {float:left;font-size:14px;line-height:200%;}
+.redbox {border:1px solid #dd1307;background:url(images/box_bg.gif) no-repeat;padding:15px 30px;}
+.redbox span {color:#dd1307;font-weight:bold;margin:0 5px 0 0;}
+.sandbox_right .desc {margin:0 0 10px 0;}
+
+.bigmargin {margin:0 0 0 40px;}
